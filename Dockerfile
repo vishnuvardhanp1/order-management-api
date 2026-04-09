@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+RUN chmod +x mvnw
+
 RUN ./mvnw clean package
 
 CMD ["java", "-jar", "target/ordermanagement-0.0.1-SNAPSHOT.jar"]
