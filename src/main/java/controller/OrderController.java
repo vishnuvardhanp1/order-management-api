@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.order.ordermanagement.controller;
+package controller;
 
 import org.springframework.web.bind.annotation.*;
 
