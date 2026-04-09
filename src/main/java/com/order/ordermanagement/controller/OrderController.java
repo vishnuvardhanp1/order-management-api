@@ -6,7 +6,7 @@ package com.order.ordermanagement.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/orders")
+@RequestMapping("/")
 public class OrderController {
 
     @GetMapping
